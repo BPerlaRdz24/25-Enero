@@ -1,0 +1,9 @@
+x=-10:0.1:-5;
+y=2+sin(x);
+subplot(2,2,1),plot(x,y),title('Grafica1');
+x=-5:0.1:2;
+y=exp(x);
+subplot(2,2,2),plot(x,y),title('Grafica2');
+x=2:0.1:10;
+y=log(x.^2+1);
+subplot(2,2,3),plot(x,y),title('Grafica3');
